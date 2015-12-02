@@ -1,0 +1,6 @@
+flask
+flask-script
+flask-moment
+flask-bootstrap
+flask-moment
+flask-wtf
