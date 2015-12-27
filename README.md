@@ -1,8 +1,10 @@
 # Flask web 框架学习
 
-学习使用Flask 框架构建简单的博客
+学习使用Flask 框架构建简单的留言板
 
 [开发日志](./buildlog.md)
+
+这个应用只是一个简单的单页面留言板，使用 Python-Flask，HTML/CSS，Twitter Bootstrap, JacaScript, jQuery 以及 Ajax
 
 ## 环境
 
