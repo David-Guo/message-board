@@ -1,3 +1,5 @@
 __pycache__
 *.swp
 venv/
+guestbook*
+app/static/js/wall_backup.js

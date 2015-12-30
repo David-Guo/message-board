@@ -4,7 +4,19 @@
 
 [开发日志](./buildlog.md)
 
-这个应用只是一个简单的单页面留言板，使用 Python-Flask，HTML/CSS，Twitter Bootstrap, JacaScript, jQuery 以及 Ajax
+这个应用只是一个简单的单页面留言板，使用 Python-Flask，HTML/CSS，Twitter Bootstrap ，采用响应式设计。
+
+桌面浏览器效果如下：
+
+![](./picture/1.png)
+
+手机端效果如下：
+
+<figure class="half">
+    <img src=./picture/2.png>
+    <img src=./picture/3.png>
+</figure>
+
 
 ## 环境
 
