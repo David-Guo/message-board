@@ -12,10 +12,12 @@
 
 手机端效果如下：
 
+<p>
 <figure class="half">
-    <img src=./picture/2.png>
-    <img src=./picture/3.png>
+    <img src="./picture/2.png" width="400">
+    <img src="./picture/3.png" width="400">
 </figure>
+</p>
 
 
 ## 环境
