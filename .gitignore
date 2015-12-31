@@ -3,3 +3,5 @@ __pycache__
 venv/
 guestbook*
 app/static/js/wall_backup.js
+unittest.py
+/test/app/*

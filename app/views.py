@@ -12,7 +12,7 @@ def index():
     return render_template("index.html", greeting_list = greeting_list)
     
 
-@app.route("/post", methods=['post'])
+@app.route("/post", methods=['post', 'get'])
 def add_message():
     name = request.form.get('n')
     msg  = request.form.get('m')
