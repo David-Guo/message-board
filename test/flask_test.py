@@ -19,6 +19,14 @@ class FunctionalTest(LiveServerTestCase):
 #    def test_add_message(self):
 #        response = self.client.get("/")
         
+    def test_something(self):
+        rv = self.client.post("/post", data=dict(
+            n='david',
+            m='The first message',
+        ), follow_redirects=True)
+        self.assertIn(b'david', rv.data)
+        self.assertIn(b'<p>The first message</p>', rv.data)
+        
         
 if __name__ == '__main__':
     unittest.main()

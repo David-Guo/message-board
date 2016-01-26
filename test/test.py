@@ -27,7 +27,14 @@ class FunctionalTest(TestCase):
         ), follow_redirects=True)
         self.assertIn(b'david', rv.data)
         self.assertIn(b'<p>The first message</p>', rv.data)
+        
+        re = self.client.post("/post", data=dict(
+            n='我',
+            m='大家好',
+        ), follow_redirects=True)
+        self.assertIn(b'hello'.encode(encoding='utf8'), re.data)
+        self.assertIn(b'<p>Hello, \xcf\x89!</p>'.encode(encoding='utf8'), re.data)
 
-              
+             
 if __name__ == '__main__':
     unittest.main()
