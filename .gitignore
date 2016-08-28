@@ -2,6 +2,7 @@ __pycache__
 *.swp
 venv/
 guestbook*
-app/static/js/wall_backup.js
-unittest.py
 /test/app/*
+app/*pyc
+app/static/js/node_modules
+app/static/js/lib/*.map
