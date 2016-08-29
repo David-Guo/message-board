@@ -1,7 +1,5 @@
 # Flask & React 留言板应用
 
-[开发日志](./buildlog.md)
-
 这个应用只是一个简单的单页面留言板，采用响应式设计。使用技术：
 
 * Python-Flask
@@ -9,6 +7,8 @@
 * AJAX
 * webpack
 * Bootstrap
+
+前后端分离
 
 * frontend: 首次使用 React 结合 webpack 构建工具.
 * backend: 使用 flask 框架，shelve 模块储存数据，可能是最简单的留言板，后端代码只有十几行.
