@@ -13,6 +13,8 @@
 * frontend: 首次使用 React 结合 webpack 构建工具.
 * backend: 使用 flask 框架，shelve 模块储存数据，可能是最简单的留言板，后端代码只有十几行.
 
+详细的介绍点这里：[React 最简单的入门应用项目](http://guodavid.tk/2016/08/29/React-Message-board/)
+
 ## 亮点
 
 * 响应式设计
